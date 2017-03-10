@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="giderHesap.MainProgram" project="giderHesap" 
+    file="/giderHesap/src/giderHesap/MainProgram.java" binary="false" label="mainProgram" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="322" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="100" x="5" y="242"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="giderHesap.MainFrame" project="giderHesap" 
+    file="/giderHesap/src/giderHesap/MainFrame.java" binary="false" label="mainFrame" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="261" y="0"/>  
+  </object>  
+  <object id="6" language="java" name="giderHesap.LoginFrame" project="giderHesap" 
+    file="/giderHesap/src/giderHesap/LoginFrame.java" binary="false" label="loginFrame" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="338" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="90" x="199" y="263"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="giderHesap.Login" project="giderHesap" 
+    file="/giderHesap/src/giderHesap/Login.java" binary="false" label="login" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="273" y="0"/>  
+  </object>  
+  <object id="8" language="java" name="giderHesap.Kisi" project="giderHesap" file="/giderHesap/src/giderHesap/Kisi.java" 
+    binary="false" label="kisi" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="499" y="0"/>  
+  </object>  
+  <object id="9" language="java" name="giderHesap.Hesap" project="giderHesap" 
+    file="/giderHesap/src/giderHesap/Hesap.java" binary="false" label="hesap" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="481" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="59" x="409" y="130"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="63" width="59" x="409" y="283"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="giderHesap.Ev" project="giderHesap" file="/giderHesap/src/giderHesap/Ev.java" 
+    binary="false" label="ev" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="556" y="0"/>    
+    <execution id="15">      
+      <position height="63" width="54" x="472" y="109"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="54" x="472" y="304"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="84" width="0" x="0" y="214"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="256"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="mainFrame():boolean" asynchronous="false" x="99" y="245">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="12" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="16" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="18" operation="getAdres():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>
+</sequence-diagram>
